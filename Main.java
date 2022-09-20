@@ -1,9 +1,10 @@
 // The '.java' file and the PUBLIC CLASS must have the same name
-
+import exercises.IPVA.Carro;
 
 public class Main {
-  
+
   public static void main(String[] args) {
+    
     // Primitive data types are byte, short, int, long, float, double, boolean and char
     int myInt = 2;
     float myFloat = 2.59f;

@@ -1,3 +1,4 @@
+package exercises.variables;
 /*
 Dados:
 Nome do aluno: Ian
