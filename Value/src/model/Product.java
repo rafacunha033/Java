@@ -3,13 +3,12 @@ package model;
 public class Product {
     public String name;
     public double price;
-    public double discount; 
+    public static double discount = 0.0; 
 
-    public Product(String name, double price, double discount) 
+    public Product(String name, double price) 
     {
         this.name = name;
         this.price = price;
-        this.discount = discount;
     }
 
     public double priceWithDiscount() 
